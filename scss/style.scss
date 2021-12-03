@@ -1,0 +1,572 @@
+@import 'strategiya/strategiya';
+@import 'what_say/_saySection';
+@import 'life/life';
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    line-height: 1.4;
+    background:linear-gradient(rgba)
+}
+img{
+    width: 100%;
+    display: block;
+}
+header{
+    height: 100vh;
+}
+.navigation{
+    width: 1320px;
+    display: flex;
+    padding: 1rem 2.4rem;
+    font-family: sans-serif;
+    justify-content: space-between;
+    
+}
+.para{
+    position: absolute;
+    margin-left: 4.5rem;
+    margin-top: -.4rem;
+    color:#000;
+    transition: .2s ease all;
+
+    &:hover{
+        color:#087355;
+        .logo i{
+            color:#087355;
+        }
+    }
+}
+.logo{
+font-size: 50px;  
+i{
+    transition: .2s ease all;
+}
+&:hover{
+    cursor: pointer;
+    i{
+    color:#087355;
+    }
+    .para{
+        color:#087355;
+    }
+}  
+
+}
+.menu{
+    display: flex;
+   
+}
+.link{
+    display: flex;
+    align-items: center;
+    a{
+        text-decoration: none;
+        margin-left: 1.5rem;
+        transition: .2s ease all;
+
+        &:hover{
+            transform: translateY(-3px);
+            cursor: pointer;
+        }
+    }
+    .black{
+        color: #000;
+    }
+}
+.logo{
+    display: flex;
+   
+}
+.btn{
+    margin-left: 2rem;
+    
+    display: flex;
+    align-items: center;
+    button{
+        margin-right: 1rem;
+        border: 2px solid green;
+        padding: .3rem 1rem;
+        border-radius: 5px;
+    }
+    .btn-1{
+        background-color: #fff;
+        transition: .2s ease all;
+
+        &:hover{
+            background-color: #087355;
+            color:#fff;
+        }
+    }
+    .btn-2{
+        background-color:  #087355;
+        color: #fff;
+        transition: .2s ease all;
+
+        &:hover{
+            background-color: #fff;
+             color: #087310;
+        }
+    }
+}
+.header_img{
+    width: 100vw;
+    height: 60rem;
+    background: url(../image/fon_img.png);
+    background-repeat: no-repeat;
+}
+.header_box{
+    font-family: sans-serif;
+    width: 22rem;
+    padding-top: 5rem;
+    margin-top: 3rem;
+
+    h1{
+        font-weight: 700;
+        margin-bottom: 1.5rem;
+    }
+    .btn_box{
+        margin-top: 3rem;
+        display: flex;
+        font-family: sans-serif;
+        .btn{
+            width: 10rem;
+            height: 2.8rem;
+            word-spacing: 5px;
+            letter-spacing: 2px;
+            border-radius: 5px;
+            color: #fff;
+            background-color: #087355;
+            font-size: 14px;
+            font-weight: 600;
+            margin-left: 0;
+            transition: .2s ease all;
+
+            &:hover{
+                opacity: .8;
+            }
+        }
+        .icon{
+            font-size: 30px;
+            color:#087355;
+            margin-left: 2rem;
+
+            &:hover{
+                opacity: .8;
+            }
+        }
+        a{
+            color:#087355 ;
+            margin-left: .5rem;
+            transition: .2s ease all;
+
+            &:hover{
+                opacity: .8;
+            }
+        }
+        
+    }
+}
+.header-h1{
+    margin-top: 4rem;
+    text-align: center;
+
+    span{
+        display: block;
+        text-align: center;
+    }
+}
+.grid_box{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+
+.box-1{
+    margin-top: 3rem;
+
+.rectangle-1{
+    display: flex;
+    width: 3.5rem;
+    height: 3.5rem;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    background-color:#087355 ;
+    transform-style: preserve-3d;
+    transition: 1s ease all;
+    
+    &:hover{
+        transform: perspective(3000px) rotateY(-135deg);
+    }
+
+    i{
+        color: #fff;
+    }
+}
+
+.rectangle-2{
+    display: flex;
+    width: 3.5rem;
+    height: 3.5rem;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    background-color:#1a7f91;
+    transform-style: preserve-3d;
+    transition: 1s ease all;
+
+    &:hover{
+        transform: perspective(3000px) rotateY(-135deg);
+    }
+    i{
+        color: #fff;
+    }
+}
+
+.rectangle-3{
+    display: flex;
+    width: 3.5rem;
+    height: 3.5rem;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    background-color:#560f70;
+    transform-style: preserve-3d;
+    transition: 1s ease all;
+
+    &:hover{
+        transform: perspective(3000px) rotateY(-135deg);
+    }
+
+    i{
+        color: #fff;
+    }
+}
+
+.rectangle-4{
+    display: flex;
+    width: 3.5rem;
+    height: 3.5rem;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    background-color:#9e0e3c;
+    transform-style: preserve-3d;
+    transition: 1s ease all;
+
+    &:hover{
+        transform: perspective(3000px) rotateY(-135deg);
+    }
+
+    i{
+        color: #fff;
+    }
+}
+h3{
+    margin-top: 2rem;
+}
+p{
+    margin-top: 1rem;
+    width: 15rem;
+} 
+}
+}
+.btn_start{
+    margin-top: 3rem;
+    text-align: center;
+    width: 95%;
+.btn_end{
+    border-radius: 5px;
+    border: none;
+    text-align: center;
+    width: 10rem;
+    height: 3rem;
+    background-color:#087355; 
+    color: #fff;
+    transition: .2s ease all;
+
+    &:hover{
+        opacity: .7;
+    }
+}
+}
+
+.manegement_section2{
+    width: 100vw;
+    height: 100vh;
+    margin-top: 10rem;
+    background-image: url(../image/fon_img2.jpg);
+    background-repeat: no-repeat;
+}
+.management_box{
+    font-family: sans-serif;
+    width: 30rem;
+    margin-top: 3rem;
+
+    h3{
+        font-weight: 800;
+        margin-bottom: 1.2rem;
+    }
+    
+    span{
+        font-weight: 600;
+        margin-bottom: .7rem;
+        margin-top: 1rem;
+        display: block;
+    }
+}
+.cuscomer_section{
+    width: 90%;
+    height: 100vh;
+    margin-top: -10rem;
+    background-image: url(../image/fon_img3.jpg);
+    background-repeat: no-repeat;
+    
+    .cuscomer_box{
+        font-family: sans-serif;
+        width: 30rem;
+        margin-left: 35rem;
+    }
+    h3{
+        font-weight: 800;
+        margin-bottom: 1.2rem;
+    }
+    span{
+        font-weight: 600;
+        margin-bottom: .7rem;
+        margin-top: 1rem;
+        display: block;
+    }
+    .all{
+        display: flex;
+    }
+    .check-1{
+        margin-top: 1.3rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 2rem;
+        height: 2rem;
+        border-radius: 10px;
+        color: #fff;
+        background-color: goldenrod;
+    }
+
+    .check-2{
+        margin-top: 1.3rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 2rem;
+        height: 2rem;
+        border-radius: 10px;
+        color: #fff;
+        background-color: rgb(223, 33, 12);
+    }
+    .check-3{
+        margin-top: 1.3rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 2rem;
+        height: 2rem;
+        border-radius: 10px;
+        color: #fff;
+        background-color: rgb(31, 31, 219);
+    }
+    p{
+        margin-top: 1rem;
+        margin-left: 2rem;
+    }
+    .check_width{
+        width: 20rem;
+    }
+}
+.manegement_section4{
+    width: 100vw;
+    height: 100vh;
+    margin-top: -15rem;
+    background-image: url(../image/fon_img4.png);
+    background-repeat: no-repeat;
+}
+.management_box4{
+    font-family: sans-serif;
+    width: 30rem;
+    margin-top: 1rem;
+    padding-top: 3rem;
+
+    h3{
+        font-weight: 800;
+        margin-bottom: 1.2rem;
+    }
+    
+    span{
+        font-weight: 600;
+        margin-bottom: .7rem;
+        margin-top: 1rem;
+        display: block;
+    }
+}
+
+/* Section images styles*/
+
+
+    .section_img{
+        margin-top: -3rem;
+    }
+
+.header2{
+    font-weight: 700;
+}
+.parag1 {
+    margin-top: 2rem;
+    font-family: sans-serif;
+}
+.parag2{
+    margin-top: -.7rem;
+    font-family: sans-serif;
+}
+.cirle-image{
+    margin-top: 3rem;
+
+   
+    img{
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        border: 3px solid red;
+        &:hover{
+            cursor: pointer;
+        }
+    }
+    .img-1{
+        position: absolute;
+        margin-left: 5rem;
+       
+    }
+    .img-2{
+        position: absolute;
+        margin-left: 55rem;
+        border: 3px solid rgb(201, 81, 101);      
+    }
+    .img-3{
+        position: absolute;
+        margin-top: 7rem;
+        margin-left: 25rem;
+        border: 3px solid green;
+    }
+    .img-4{
+        position: absolute;
+        margin-left: 35rem;
+        margin-top: 7rem;
+        border: 3px solid green;
+    }
+}
+/*Section img poligon styles*/
+@mixin poligon {
+    position: absolute;
+    width: 17rem;
+    height: 2.4rem;
+    border-radius: 50px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 1px 1px 10px rgb(194, 190, 190);
+    background-color: rgb(237, 245, 237);
+    
+}
+@mixin circle {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: rgb(237, 245, 237);
+    
+}
+.poligon{
+    @include poligon();
+    margin-top: 1.5rem;
+    margin-left: 12rem;
+
+    .pol_circle{
+        @include circle();
+        margin-left: -10rem;
+        margin-top: 2.5rem;
+    } 
+}
+.poligon-2{
+    @include poligon();
+    margin-top: 1.5rem;
+    margin-left: 37rem;
+
+    .pol_circle{
+        @include circle();
+        margin-left: 10rem;
+        margin-top: 2.5rem;
+    }
+}
+.poligon-3{
+    @include poligon();
+    margin-top: 8.5rem;
+    margin-left: 6rem;
+
+    .pol_circle{
+        @include circle();
+        margin-left: 10rem;
+        margin-top: 2.5rem;
+    }
+}
+
+.poligon-4{
+    @include poligon();
+    margin-top: 8.5rem;
+    margin-left: 44rem;
+
+    .pol_circle{
+        @include circle();
+        margin-left: -10rem;
+        margin-top: 2.5rem;
+    }
+}
+.all_image{
+    background-color: purple;
+}
+.contact{
+    margin-top: 20rem;
+    width: 75vw;
+}
+.contact_btn{
+    border-radius: 5px;
+    border: none;
+    width: 13rem;
+    height: 3.2rem;
+    background-color:#087355; 
+    color: #fff;
+    transition: .2s ease all;
+    font-weight: 600;
+
+    &:hover{
+        opacity: .7;
+    }
+}
+.bars{
+    display: none;
+}
+@media only screen and (max-width:800px) {
+    .menu{
+        display: none;
+    }
+    .para{
+        margin-top: .5rem;
+        font-size: 40px;
+    }
+    .bars{
+        margin-top: 1.5rem;
+        display: block;
+    }
+}
